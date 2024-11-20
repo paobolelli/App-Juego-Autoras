@@ -1,0 +1,253 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 nov 2024, 13:46:35
+    Author     : paolabolelli
+*/
+
+
+/* General */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #7b6d8d;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Contenedor de la invitacion a registrarse */
+.intro-container {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.intro-container h2 {
+    font-size: 1.5em; /* TamaÃƒÂ±o mÃƒÂ¡s pequeÃƒÂ±o */
+    color: #6a9e74; /* Un verde pastel suave */
+    margin-bottom: 10px;
+}
+
+.intro-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+
+
+/* Estilos para los formularios de registro y login */
+.register-container, .login-container {
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin: 15px 0;
+}
+
+.input-group label {
+    display: block;
+    margin: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Enlaces */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el juego 
+.game-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+*/
+
+.alternativas p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+#respuestaUsuario {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7b6d8d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6a5c7d;
+}
+
+#mensaje {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.container {
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 90%; 
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto; 
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+}
+
+/* Estilo para mensajes de alerta */
+.alert {
+    padding: 10px;
+    background-color: #ffcccb; /* Rosa pastel para mensajes de error */
+    color: #ff0000;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/* Estilo para el contenedor de la pregunta */
+.pregunta-container {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #7b6d8d; /* Un tono suave similar al color de los tÃ­tulos */
+    background-color: #f9f9f9; /* Un fondo suave */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Espacio entre la pregunta y las alternativas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera para dar profundidad */
+}
+#textoPregunta {
+    font-weight: bold;  /* Negrita */
+    text-align: left;  /* No centrado */
+    margin-bottom: 20px; /* Espacio debajo de la pregunta */
+}
+
+/* Estilo para las alternativas */
+.alternativas-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre las alternativas */
+    text-align: left;
+    margin-left: 20px; /* Un pequeño margen */
+    
+}
+
+/* Estilo para cada alternativa */
+.alternativa {
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #f0f8ff; /* Fondo claro */
+    border: 2px solid #ddd; /* Borde suave */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto de hover */
+.alternativa:hover {
+    background-color: #e0f7fa; /* Cambio de color al pasar el ratÃ³n */
+    transform: scale(1.05); /* Efecto de ampliaciÃ³n */
+}
+
+label[for="respuestaUsuario"] {
+    font-weight: bold;   /* Negrita */
+    text-align: left;     /* No centrado */
+    margin-bottom: 5px;  /* Espacio debajo */
+    display: block;       /* Para asegurarnos de que el label se comporta como un bloque */
+}

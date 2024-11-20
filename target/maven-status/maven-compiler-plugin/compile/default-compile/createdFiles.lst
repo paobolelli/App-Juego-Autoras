@@ -1,0 +1,13 @@
+com/mycompany/juegoautoras/PreguntaRepository.class
+com/mycompany/juegoautoras/PreguntaService.class
+com/mycompany/juegoautoras/WebSecurityConfig.class
+com/mycompany/juegoautoras/JuegoAutoras.class
+com/mycompany/juegoautoras/UsuarioController.class
+com/mycompany/juegoautoras/UsuarioRepository.class
+com/mycompany/juegoautoras/Usuario.class
+com/mycompany/juegoautoras/CustomUserDetailsService.class
+com/mycompany/juegoautoras/JuegoController.class
+com/mycompany/juegoautoras/Pregunta.class
+com/mycompany/juegoautoras/UsuarioService.class
+com/mycompany/juegoautoras/PreguntaController.class
+com/mycompany/juegoautoras/DataLoader.class
